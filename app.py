@@ -143,7 +143,6 @@ bias = random.uniform(0, 0.5)
 st.title("IntelliBlend: \n Chat and Seamlessly Integrate Knowledge from Websites and PDFs for Smarter Conversations")
 
 with st.sidebar:
-    st.sidebar.title("Evan Velagaleti \n ev379@drexel.edu")
     website_url = st.text_input("Website URL")
     pdf = st.file_uploader("Upload your PDF", type="pdf")
 
